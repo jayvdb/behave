@@ -29,8 +29,8 @@ cache:
     - $HOME/.cache/pip
 
 install:
-  - travis_retry pip install -q -r py.requirements/ci.travis.txt
-  - python setup.py -q install
+  - pip install -r py.requirements/ci.travis.txt
+  - python setup.py install
 
 script:
   - python --version
