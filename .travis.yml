@@ -8,11 +8,10 @@ python:
   - "pypy"
   - "pypy3"
   - "3.7-dev"
+  - "3.3"
 
 # -- DISABLED:
 #  - "nightly"
-#  - "3.4"
-#  - "3.3"
 #
 # NOW SUPPORTED: "3.5" => python 3.5.2 (>= 3.5.1)
 # NOTE: Python 3.5.0 is broken (for some tests).
